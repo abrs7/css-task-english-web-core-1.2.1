@@ -1,0 +1,161 @@
+.container{
+    margin: 30px;
+    display: flex;
+    
+    color:#EFF6FF;
+}
+
+.aside{
+    flex:1;
+}
+
+.main{
+    flex:2;
+    margin: 40px 20px;
+}
+
+.main .main-intro{
+    color:#2A4A5C;
+    margin: 30px 10px;
+}
+
+.social-media{
+    display: flex;
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+.facebook , .linkedin{
+
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    font-size: 10px;
+    
+}
+.facebook img, .linkedin img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.facebook{
+    background-color: #255A9B;
+    margin: 5px 5px;
+    
+}
+.linkedin{
+    background-color: #0076B6;
+    margin: 5px 5px;
+}
+.or {
+    margin: 20px;
+    text-align: center; /* Center the text */
+    color: black;
+    position: relative; /* Position relative for pseudo-elements */
+}
+
+.or:before,
+.or:after {
+    content: ""; /* Add pseudo-elements */
+    position: absolute; /* Position absolutely */
+    top: 50%; /* Position vertically at the middle */
+    width: 45%; /* Set width for lines */
+    border-top: 1px solid black; /* Add horizontal line */
+}
+
+.or:before {
+    right: 55%; /* Position before the text */
+    margin-right: 10px; /* Adjust spacing */
+    margin-left: 50px;
+    
+}
+
+.or:after {
+    left: 55%; /* Position after the text */
+    margin-left: 10px; /* Adjust spacing */
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-first {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    align-items: center;
+}
+
+.input1,
+.input2 {
+    font-size: 12px;
+    border-radius: 5px;
+    border-left:3.8px solid #0076B6;
+    border-bottom: 0.3px solid #6d6969;
+    border-right: 0.3px solid #6d6969;
+    border-top: 0.3px solid #6d6969;
+    width: 200px;
+    padding: 5px;
+    margin-top: 1px; 
+}
+.input1{
+    margin-right: 10px;
+}
+.input2{
+    margin-left: 10px;
+}
+
+
+.input1 input,
+.input2 input {
+    border: none;
+    border-bottom: 3px solid #EFF6FF; /* Border only on bottom */
+    height: 10px;
+    padding: 5px;
+    margin: 1px 5px ; /* Add some space between labels and inputs */
+}
+.input1 input:focus, 
+.input2 input:focus{
+    outline: none;
+}
+
+.form-header{
+    color:black;
+}
+form-radio input[type="radio"]{
+    color:#2A4A5C;
+}
+
+.person-type{
+    color:#a0b0b9;
+    padding: 7px;
+    border: 0.01px solid #f1eded;
+    border-radius: 4px;
+    width: 200px;
+    font-size: 12px;
+}
+.terms-agreement{
+    color:#333638;
+    font-size: 15px ;
+    
+}
+.terms-agreement label u{
+  color: #0076B6;
+}
+.creater{
+    margin-top: 50px;
+    padding-left: 30%;
+    background-color: #0076B6;
+    color:#EFF6FF;
+    justify-content: center;
+    width: 200px;
+    padding: 4px;
+    font-size: 15px;
+    
+}.creater p{
+    justify-content: center;
+    padding-left: 30px;
+}
